@@ -19,11 +19,11 @@ void Delay_us(uint16_t us)
 	HAL_TIM_Base_Stop(&htim3);     //将定时器3关闭
 }
 
-void SR04_Trigger(void)   //触发型号
+void SR04_Trigger(void);   //触发型号
 {
-	Tirg_ON;
+	Tirg_ON；
 	Delay_us(10);
-	Tirg_OFF;
+	Tirg_OFF；
 }
 
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)       //外部中断的回调函数
@@ -40,7 +40,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)       //外部中断的回调函�
 		else if(HAL_GPIO_ReadPin(GPIOB,GPIO_PIN_4) == 0)   //低电平
 		{
 			HAL_TIM_Base_Stop(&htim4);         //关闭定时器
-			count = __HAL_TIM_GetCounter(&htim4);//读取计数值
+			count = __HAL_TIM_GetCounter(&htim4)//读取计数值
 			distance_cm = count*340/2*0.0000001*100;     //公式求距离
 		}
 	}

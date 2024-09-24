@@ -542,8 +542,8 @@ I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66F17546)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66F17546)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66F17546)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66F17546)
-F (..\Core\Src\driver_sr04.c)(0x66F2BA36)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../../driver-I./RTE/_smart_trash_can-ID:/STM32/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/STM32/ARM/PACK/Keil/STM32F1xx_DFP/2.2.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o "smart trash can/driver_sr04.o" -MD)
-I (..\Core\Inc\driver_sr04.h)(0x66F2B9CD)
+F (..\Core\Src\driver_sr04.c)(0x66F2BB2A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-3 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ../../driver-I./RTE/_smart_trash_can-ID:/STM32/ARM/PACK/ARM/CMSIS/5.0.1/CMSIS/Include-ID:/STM32/ARM/PACK/Keil/STM32F1xx_DFP/2.2.0/Device/Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o "smart trash can/driver_sr04.o" -MD)
+I (..\Core\Inc\driver_sr04.h)(0x66F2BB0B)
 I (..\Core\Inc\main.h)(0x66F261BE)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h)(0x66F17546)
 I (..\Core\Inc\stm32f1xx_hal_conf.h)(0x66F261BE)
@@ -572,4 +572,4 @@ I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h)(0x66F17546)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h)(0x66F17546)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim.h)(0x66F17546)
 I (..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_tim_ex.h)(0x66F17546)
-F (..\Core\Inc\driver_sr04.h)(0x66F2B9CD)()
+F (..\Core\Inc\driver_sr04.h)(0x66F2BB0B)()
